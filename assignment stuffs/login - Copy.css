@@ -1,0 +1,71 @@
+p{
+    font-family: cursive;
+    margin-bottom: 2px;
+}
+.container{
+    background: #f1f1f1;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 20px;
+	font-family: monospace;
+	border: 2px solid black;
+    border-radius: 0px;
+    box-shadow: 0px 0px 10px grey;
+}
+.login{
+    font-family: fantasy;
+    font-weight: lighter;
+}
+/* .surname{ */
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+/* .pass{ */
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+p{
+    margin-bottom: 0px;
+    margin-top: 2px;
+/* } */
+#login{
+    margin-top: 10px;
+/* } */
+a{
+    font-size: 15px;
+    margin-right: 0px;
+    margin-top: 0px;
+/* } */
+/* input{ */
+    width: 100%;
+	/* display: block; */
+	padding: 10px;
+	box-sizing: border-box;
+	/* box-shadow: inset 0 0 10px cadetblue; */
+    border: 1px solid black;
+    border-radius: 20px;
+}
+/* H4{ */
+    padding: 0PX;
+    margin: 0px;
+    font-size: 20px;
+    /* margin-bottom: -25px; */
+}
+/* button+a{ */
+    display: block;
+    text-decoration: none;
+}
+/* button+a:hover{ */
+    display: block;
+    text-decoration: none;
+    color: red;
+    transition: 1s;
+}
+/* .login{ */
+    font-size: 40px;
+}
+#rem{
+    /* display: inline; */
+/* } */

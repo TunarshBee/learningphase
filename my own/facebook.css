@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div.every{
+    background-color: #188be2;
+    width: 100%;
+    height: 80px;
+}
+div.info{
+    float: right;
+    padding-top: 20px;
+}
+div.email{
+    display: inline;
+    float: right;
+   
+}
+div.password{
+    display: inline;
+    float: right;
+    margin-right: 10px;
+  
+}
+.button{
+    float: left; 
+    margin-right: 10px;
+    display: block;
+    margin-left: 10px;
+    background-color: blue;
+    color: white;
+}
+.facebook{
+    padding-left: 370px;
+    padding-top: 50px;
+    color: white;
+    font: 65px verdana ;
+    display: inline;
+}
+.img{
+    float: left;
+    border-radius: 50%;
+}

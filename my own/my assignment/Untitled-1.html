@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    var bello= ['bel', 'llo' , 'san' , 'ball'];
+    var i = 0;
+    while(i<bello.length){
+        i++;
+        document.write(bello[i]+'');
+    }
+    // prompt('as in...');
+    // open('http://localhost/');
+   
+
+    // alert(bello[bello.length-2]);
+    // function bel() {
+    //     for (let i = 0; i < bello.length; i++) {
+    //         document.write("<li>"+bello[i]+"</li>");
+            
+    //     }
+    // }
+        function addLoop(){
+
+            //  history.back();
+            // var mail = document.getElementById('er').value;
+            // var atposition = mail.indexOf('@');
+            // var dotposition = mail.indexOf('.');
+            // if(atposition<=2 || dotposition<atposition+2 || dotposition+2>=mail.length){
+            //     alert('please enter a valid email');
+            // }
+            // else{
+            //     alert('valid email')
+            setInterval(() => {
+                time = 0;
+                document.getElementById('time').innerHTML += 1;
+            }, 500);
+            // setTimeout(function(){alert('just few moments');}, 500);
+            }
+        //     // for(i=a; i<z; i++){
+        //     //     const sum = ("+"+i);
+        //     //     eval(sum);
+        //     // }
+        //     var i=a;
+        //     while(i<z){
+        //         i++;
+        //         // var num = 0;
+        //         // num+=i;
+        //         
+        //         document.write(eval(document.getElementById('addL').value));
+        //     }
+        // }
+</script>
+<body>
+    <button onclick="addLoop()">
+        click us
+    </button>
+    <input type="text" name="" id="er" autofocus>
+    <p id="time"></p>
+</body>
+</html>

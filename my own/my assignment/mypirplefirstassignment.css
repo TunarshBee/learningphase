@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    margin: 45px;
+}
+
+.unlist{
+    list-style-type: square;
+}
+
+.orlist{
+    list-style-type: lower-roman;
+}
+
+.span{
+    font-style: italic;
+    text-decoration: underline;   
+}
+.span1{
+    font-style: italic;
+    color: red;
+    font-style: normal;
+}
+
+@media only screen and ( max-width:400px){
+    .orlist{
+        list-style-type: upper-latin;
+        color: navy;
+        font-style: italic;
+        font-family: cursive;
+    }
+
+    .unlist{
+        list-style-type: upper-roman;
+        color: red;
+        font-size: 23px;
+        font-style: oblique;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .span{
+        color: gray;
+        font-size: 30px;
+        font-style: normal;
+        font-family: 'Lucida Grande' ;
+    }
+
+    img{
+        width: 150px;
+        height: 150px;
+    }
+} 
+
+@media  ( min-width:401px) and (max-width:750px) {
+    .orlist{
+        list-style-type: lower-greek;
+        color: yellow;
+        font-style: oblique;
+        font-family: cursive;
+    }
+
+    .unlist{
+        list-style-type: upper-latin;
+        color: red;
+        font-size: 30px;
+        font-style: oblique;
+        font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .span{
+        color: green;
+        font-size: 30px;
+        font-style: normal;
+        font-family: 'Lucida Grande' ;
+    }
+
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media ( min-width:751px ) {
+    .orlist{
+        list-style-type: armenian;
+        color: midnightblue;
+        font-style: normal;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .unlist{
+        list-style-type: georgian;
+        color: royalblue;
+        font-size: 50px;
+        font-style: oblique;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .span{
+        color: maroon;
+        font-size: 50px;
+        font-style: oblique;
+        font-family: 'Courier New', Courier, monospace ;
+    }
+
+    img{
+        width: 400px;
+        height: 400px;
+    }
+}

@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    font-family: monospace, sans-serif, Verdana, Geneva, Tahoma;
+    /* background-image: url(1.JPEG);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    padding: 0px;
+    margin: 0px;
+    /* background-blend-mode: screen; */
+    /* background: silver; */
+}
+input{
+    margin-bottom: 5px; 
+    border-radius: 5px;
+    font-size: medium;
+    padding:2px ;
+    margin: 5px;
+    border-color: steelblue;  
+}
+.header> ul > li >a{
+    background-color: red;
+}
+a{
+    background-color: rgba(26, 136, 226, 0.795);
+    border: tomato 2px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    padding: 2px;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+p.login{
+    display: block;
+    background-color: #eee;
+    margin-top: 25px;
+    margin: auto;
+    text-align: center;
+    min-width: 50px;
+    /* height: 220px; */
+    border: rgb(236, 181, 77) 10px;
+    border-radius: 10px;
+}
+input:hover{
+    border: blue 5px;
+    border-radius: 2px;
+    background-color: rgb(199, 243, 245);
+    transition: 2s ;
+    color: white;
+}
+h1{
+    font-family: Geneva,Verdana, Tahoma, sans-serif ;
+    text-align: center;
+}
+h5{
+    display: inline-block;
+}
+a:hover{
+    background-color: grey;
+    border: violet 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #900;
+    padding: 3px;
+    transition: 2s ;
+    font-family: sans-serif;
+}
+fieldset{
+    text-align: center;
+    /* width: 150px; */
+    border-radius: 5px;
+    display: inline-block;
+    min-width: 30px;
+    padding: 5px;
+    background-color: burlywood;
+    margin-left:550px;
+    margin-top: 50px;
+}
+legend{
+    color: rgb(250, 249, 248);
+    font-family: forte ;
+    font-size: large;
+    margin-bottom: -40px;
+    margin-left: 630px;
+    margin-top: 30px;
+    /* background-color:#eee; */
+    /* border-radius: 10px; */
+}
+h3{
+    font-size: larger;
+}
+.header{
+    text-decoration: none;
+    float: right;
+    margin-top: -40px;
+    margin-right: 100px;
+}
+
+header > ul > li {
+ list-style: none;
+ display: inline-block;
+ padding-left: 10px;
+ padding-right: 20px;
+ }
+.place {
+    margin-top: 60px;
+}
+#grid{
+    display: inline-block;
+    background-color: rgb(103, 210, 252);
+}
+#footer{
+    display: grid;
+    float: left;
+    grid-gap: -30px;
+    padding: 20px;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 170px;
+    text-align: center;
+    padding-right: -10px;
+}
